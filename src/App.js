@@ -15,7 +15,7 @@ class App extends React.Component {
       cardAttr3: '',
       cardImage: '',
       cardRare: '',
-      cardTrunfo: 'false',
+      cardTrunfo: false,
     };
 
     this.onInputChange = this.onInputChange.bind(this);
@@ -64,7 +64,6 @@ class App extends React.Component {
           cardImage={ cardImage }
           cardRare={ cardRare }
           cardTrunfo={ cardTrunfo }
-          onInputChange={ this.onInputChange }
         />
       </div>
     );
